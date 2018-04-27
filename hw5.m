@@ -1,4 +1,4 @@
-fid=fopen('data.txt')
+fid=fopen('camera_log.txt')
 s=textscan(fid,'%f %f %f','headerlines',23)
 fclose(fid);
 x=s{1};
